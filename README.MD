@@ -12,6 +12,8 @@ Test: "It will move all the first consecutive consonants to the end and add 'ay.
 Code: pigLatin("code");
 Expected Output: "odecay"
 
+let result = text.match("ain");
+
 Test: "It will move the letters "qu" if the word starts with this consonant and add "ay.""
 Code: pigLatin("quick");
 Expected Output: "ickquay"
