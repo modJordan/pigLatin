@@ -1,6 +1,13 @@
 // Utility Logic
-
-
+function isEmpty() {
+  for (let i = 0; i < arguments.length; i++) {
+    if (Number.isNaN(arguments[i])) {
+      return false;
+    } else if (typeof arguments[i] === 'string') {
+      return arguments[i];
+    }
+  } return
+}
 
 // Business Logic
 
